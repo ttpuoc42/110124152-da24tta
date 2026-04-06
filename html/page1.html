@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Giới thiệu</title>
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -10,15 +11,38 @@
     <h1>Giới thiệu bản thân</h1>
 
     <!-- Image -->
-    <img src="../assest/avatar.jpg" alt="ảnh đại diện" width="150">
+    <div class="avatar-container">
+        <img src="../assest/avatar.jpg" alt="Ảnh đại diện">
+    </div>
 
     <!-- Paragraph -->
-    <p>Xin chào! Tôi là <b>[Trần Thanh Phước]</b></p>
+    <p>Xin chào! Tôi là <b>Trần Thanh Phước</b></p>
 
     <p>
-        Tôi sinh ngày <i>[04/02/2006]</i> và đến từ 
-        <u>[Trà Vinh]</u>.
+        Tôi sinh ngày <i>04/02/2006</i> và đến từ 
+        <u>Trà Vinh</u>.
     </p>
+	
+    <!-- Table -->
+    <h2>Thông tin cơ bản</h2>
+    <table>
+        <tr>
+            <th>Tên</th>
+            <th>Tuổi</th>
+            <th>Trường</th>
+            <th>Ngành</th>
+            <th>Lớp</th>
+            <th>MSSV</th>
+        </tr>
+        <tr>
+            <td>Trần Thanh Phước</td>
+            <td>20 tuổi</td>
+            <td>Đại Học Trà Vinh</td>
+            <td>Công Nghệ Thông Tin</td>
+            <td>DA24TTA</td>
+            <td>110124152</td>
+        </tr>	
+    </table>	
 
     <!-- List -->
     <h3>Sở thích:</h3>
@@ -28,13 +52,11 @@
         <li>Thể thao</li>
     </ul>
 
-    <!-- Link -->
-    <p>
-        Xem thêm tại:
-        <a href="https://www.facebook.com/phcjethero" target="_blank">
-            Facebook của tôi
-        </a>
-    </p>
+    <!-- Links / Buttons -->
+    <div class="links">
+        <button onclick="window.open('https://www.tvu.edu.vn/', '_blank')">Trường của tôi</button>
+        <a href="https://www.facebook.com/phcjethero" target="_blank" class="btn-link">Facebook của tôi</a>
+    </div>
 
 </body>
 </html>
