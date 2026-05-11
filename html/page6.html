@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Shop hoa tươi Trà Vinh</title>
+        <script src = "../js/lib.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div class ="container" id="container">
+            <div class="row" id="product-list"></div> 
+        </div>
+
+        <script>
+            productList.forEach(product => {
+                addProduct(product.id, product.name, product.price, product.image, product.productLink);
+            });
+
+        </script>
+    </body>
+</html>
