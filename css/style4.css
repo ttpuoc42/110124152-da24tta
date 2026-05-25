@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: white;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #e53935;
+    font-size: 22px;
+}
